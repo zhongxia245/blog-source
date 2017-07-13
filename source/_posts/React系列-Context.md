@@ -1,8 +1,8 @@
 ---
 title: React系列->Context
 date: 2016-05-05 10:29:16
-tags: react
-categories: react
+tags: React
+categories: React
 ---
 Contexts 是React的一个重要属性，但是到目前为止，这个属性在正式的文档里面还没有对它进行正式介绍，在 reactv0.1.4将会正式发布这个属性。下面先来介绍一下它的使用方式。
 Contexts 可以把父组件的的数据,方法传给子组件使用. 而不用每一次都使用给子组件赋值属性的方式,传递方式.

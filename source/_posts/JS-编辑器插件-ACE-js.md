@@ -1,8 +1,8 @@
 ---
 title: JS 编辑器插件 ACE.js
 date: 2016-05-14 10:53:10
-tags: Javascript
-categories: Javascript
+tags: JavaScript
+categories: JavaScript
 ---
 ace 是 js 实现的代码编辑器
 [编译打包之后的 ACE 代码](https://github.com/ajaxorg/ace-builds.git)

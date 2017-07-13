@@ -16,6 +16,14 @@ git clone https://github.com/zhongxia245/hexo-theme-BlueLake.git themes/BlueLake
 hexo s
 
 # 生成静态文件，并且部署到服务器上
-hexo d -g
+hexo d -g  
+# or 
+npm run deploy
 
 ```
+
+## 三、新建文章
+```
+hexo new "postName"
+```
+

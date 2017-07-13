@@ -1,8 +1,8 @@
 ---
 title: JS 正则表达式 /g 注意事项
 date: 2016-05-14 10:51:21
-tags: Javascript
-categories: Javascript
+tags: JavaScript
+categories: JavaScript
 ---
 使用正则表达式来做表单验证的时候,遇到如下一个鬼东西, 匹配正则的时候,同样的数据, 一次 `true`, 一次 `false`. 坑死爹啊. 
 到底是什么坑爹的问题导致的吧.  研究发现 是  `/g` 的鬼问题

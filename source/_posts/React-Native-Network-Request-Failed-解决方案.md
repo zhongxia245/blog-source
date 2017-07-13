@@ -1,7 +1,7 @@
 ---
 title: React Native Network Request Failed 解决方案
 date: 2016-12-09 10:53:10
-tags:
+tags: ReactNative
 categories: ReactNative
 ---
 在ReactNative使用fetch去异步加载数据。 这里的 fetch 和浏览器的 fetch 用法是一样的。
