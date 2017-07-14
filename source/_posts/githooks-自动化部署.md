@@ -66,3 +66,6 @@ git hooks 还可以有其他应用，比如 pre-commit 在提交前触发，验�
 
 这里只是简单的实现了一下自动化部署（不太完整， 还需要一个 nginx 来把dev-blog, release-blog 部署起来）
 
+
+## 四、参考文章
+1. [hexo常用命令笔记](https://segmentfault.com/a/1190000002632530#articleHeader12)
