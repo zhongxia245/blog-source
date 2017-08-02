@@ -1,7 +1,8 @@
 ---
 title: github如何绑定域名
 date: 2016-04-30 06:41:53
-tags: [hexo]
+tags: git
+categories: 部署、运维
 ---
 很早之前就买了两个域名, zhongxia.win [万网买的] ,izhongxia.cn 但是由于之前是使用 BAE 来构建 Node的项目, 想绑定上域名,却一直不得法, 然后对域名解析 起了 深深的无奈. 
 早上起来试了一下使用 github pages 去绑定 自己之前的域名 zhongxia.win ,既然成功了. 赶紧记录下 hexo + github pages 域名解析方法. 

@@ -1,8 +1,8 @@
 ---
 title: githooks 自动化部署
 date: 2017-07-14 02:18:54
-tags: [git]
-categories: git
+tags: git
+categories: 部署、运维
 ---
 ## 一、写在前面
 虽然知道自动化部署，也一直在用，但是自己去搭建一个自动化部署的环境，还是从未有过的。 

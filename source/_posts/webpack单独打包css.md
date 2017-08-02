@@ -2,7 +2,7 @@
 title: webpack单独打包css
 date: 2016-05-14 10:50:25
 tags: Webpack
-categories: Webpack
+categories: 前端
 ---
 webpack 把所有的资源都当成了一个模块, CSS,Image, JS 字体文件 都是资源, 都可以打包到一个 bundle.js 文件中. 
 但是有时候需要把样式 单独的打包成一个文件, 然后放到 CND上, 然后缓存到浏览器客户端中

@@ -2,6 +2,7 @@
 title: 左耳朵 GitChat 记录 【谈个人成长】
 date: 2017-08-01 21:36:38
 tags: 学习
+categories: 成长
 ---
 
 左耳朵在 gitchat 上 关于 个人成长的chat 中， 记录 chat 中的一些回答和感受。

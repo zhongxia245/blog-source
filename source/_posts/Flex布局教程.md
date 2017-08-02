@@ -2,7 +2,7 @@
 title: Flex布局教程
 date: 2016-05-06 10:09:44
 tags: CSS
-categories: CSS
+categories: 前端
 ---
 Flex布局比 div + css 更简单粗暴, 更容易实现我们想要的布局. 
 常规的 ,左侧固定,右侧自适应, 如果使用
