@@ -101,7 +101,7 @@ jsonContent:
 
 deploy:
 - type: git
-  repository: zhongxia@wwww.izhongxia.com:/home/zhongxia/git/blog.git
+  repository: zhongxia@www.izhongxia.com:/home/zhongxia/git/blog.git
   branch: master
 
 # deploy:
