@@ -23,15 +23,15 @@ webpack打包构建中，经常到80%的时候，就开始停留一段时间，�
 把一些公共的 npm 库，单独打包出来， 比如react, react-router ,redux...， 然后在 html 中 使用 script 引入。
 
 
-### 2.4 修改 deltool 提升构建的时间
+### 2.4 修改 devtool 提升构建的时间
 参考文章 [《Webpack devtool source map》](http://cheng.logdown.com/posts/2016/03/25/679045)
-eval 构建的速度是最快的。
 
+For development, use `cheap-module-eval-source-map`. For production, use `cheap-module-source-map`.
 
 ## 三、测试结果
 >多次测试的结果， 测试机 mac, i5, 8G
 
-### 3.1 采用 happypack， 和 webpack-uglify-parallel 加强 和 deltool = 'cheap-module-source-map'
+### 3.1 采用 happypack， 和 webpack-uglify-parallel 加强 和 devtool = 'cheap-module-source-map'
  构建内容 | 优化前(ms) | 优化后(ms)
 ---|---|---
 多个 JS入口【1】 |208038ms | 106484ms
