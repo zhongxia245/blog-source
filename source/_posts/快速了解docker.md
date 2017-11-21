@@ -3,6 +3,14 @@ title: 快速了解docker
 date: 2017-11-21 17:24:10
 tags: docker
 ---
+介绍 docker 的一些基础命令，以及几个简单的小例子，帮助快速入门。
+后面就介绍一下， 如何使用 docker 来进行部署微服物。
+
+
+## docker架构图
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1flpums8f2nj30ed0awmyj.jpg)
+
+
 ## 零、学习文章
 1. [《Docker 教程 | 菜鸟教程》](http://www.runoob.com/docker/docker-tutorial.html)
 2. [《一小时Docker教程》](https://blog.csphere.cn/archives/22)
