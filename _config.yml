@@ -104,6 +104,11 @@ deploy:
   repository: zhongxia@www.izhongxia.com:/home/zhongxia/git/blog.git
   branch: master
 
+admin:
+  username: zhongxia
+  password_hash: $2a$10$Wx80DUVgEqvcfTC/w8jsHOm1Pb2ULi4xMOkoikfR7CI0FK3j66kWu
+  secret: izhongxia_admin
+
 # deploy:
 # - type: git
 #   repo: 
