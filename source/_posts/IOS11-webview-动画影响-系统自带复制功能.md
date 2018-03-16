@@ -1,0 +1,57 @@
+---
+title: IOS11 webview 动画影响 系统自带复制功能
+date: 2018-03-16 12:05:56
+tags: 前端
+---
+
+在IOS webview 里面， 使用 JS 定时器修改 margin或者top，left来实现动画， 或者 animation 实现动画，会影响IOS本机自带的复制功能。
+
+解决方案： 用CSS3的 transform 则没有这个问题。
+
+这个问题的原因不太清楚，猜测是 webview 的问题， 微信webview里面打开，则没有这个问题。
+
+
+```css
+@keyframes jump {
+  0% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: -30px;
+  }
+}
+
+.view-money {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    width: 33px;
+    height: 33px;
+    transform: translateX(-105px);
+    animation: jump 1s ease 1s infinite alternate;
+  }
+  .view-chart {
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    width: 31px;
+    height: 50px;
+    transform: translateX(110px);
+    animation: jump 1s ease infinite alternate;
+  }
+```
+
+在IOS中，animation 中， jump 使用 margin-top , 或者 top 来实现动画， 会导致 IOS11 webview 中， 无法复制文字。 不太清除为什么。
+
+解决方案：
+```css
+@keyframes jump {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(-140px);
+    }
+}
+```
+动画采用 translate 实现，复制功能就不受影响。
