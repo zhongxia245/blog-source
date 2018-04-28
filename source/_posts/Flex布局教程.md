@@ -4,12 +4,14 @@ date: 2016-05-06 10:09:44
 tags: CSS
 categories: 前端
 ---
-Flex布局比 div + css 更简单粗暴, 更容易实现我们想要的布局. 
-常规的 ,左侧固定,右侧自适应, 如果使用
-<!--more-->
----
 
-### [在线Flex 布局 Demo](http://zhongxia.win/demo/web_flex.html)
+Flex 布局比 div + css 更简单粗暴, 更容易实现我们想要的布局.
+常规的 ,左侧固定,右侧自适应, 如果使用
+
+## <!--more-->
+
+### [在线 Flex 布局 Demo](http://zhongxia.win/demo/web_flex.html)
+
 例子里面有布局效果+代码，用这个可以快速上手。
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: docker宿主机和容器 文件传输
 date: 2018-03-30 16:14:06
-tags:
+tags: docker
 ---
 不管容器有没有启动，拷贝命令都会生效
 ```bash
