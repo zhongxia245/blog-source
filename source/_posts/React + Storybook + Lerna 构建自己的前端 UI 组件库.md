@@ -1,5 +1,5 @@
 ---
-title: React + Storybook + Lerna 构建自己的前端 UI 组件库
+title: React + Storybook + Lerna 构建自己的前端 UI 组件库
 date: 2018-05-21 18:54:18
 tags: React
 ---
