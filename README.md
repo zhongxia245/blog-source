@@ -1,13 +1,15 @@
 ## 一、介绍
+
 这个是 hexo 生成的 blog 代码，这里主要保存的是 Markdown 的文章文件。
 
 ## 二、如何部署起来
+
 ```bash
 # 下载代码
 git clone https://github.com/zhongxia245/blog-source.git
 
 # 安装依赖
-yarn install 
+yarn install
 
 # 下载主题
 git clone https://github.com/zhongxia245/hexo-theme-BlueLake.git themes/BlueLake
@@ -17,13 +19,14 @@ hexo s
 
 # 生成静态文件，并且部署到服务器上
 hexo d -g  
-# or 
+# or
 npm run deploy
 
+# 部署使用 gitee pages 服务进行部署，很简单，并且打开速度杠杠的。
 ```
 
 ## 三、新建文章
+
 ```
 hexo new "postName"
 ```
-
