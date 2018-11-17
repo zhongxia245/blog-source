@@ -2,6 +2,7 @@
 title: PM2部署--入门（一）
 date: 2018-04-28 15:03:38
 tags: 部署
+descriptioin: PM2是node进程管理工具，可以利用它来简化很多node应用管理的繁琐任务，如性能监控、自动重启、负载均衡等，而且使用非常简单。
 ---
 
 ## 一、介绍
@@ -83,6 +84,6 @@ pm2 logs --line 100                     #打印日志的行数
 
 ## 参考文章
 
-* [《PM2 官方文档》](http://pm2.keymetrics.io/docs/usage/quick-start/)
-* [《PM2 实用入门指南》](http://imweb.io/topic/57c8cbb27f226f687b365636)
-* [《使用 PM2 将 Node.js 的集群变得更加容易》](https://www.cnblogs.com/jaxu/p/5193643.html)
+- [《PM2 官方文档》](http://pm2.keymetrics.io/docs/usage/quick-start/)
+- [《PM2 实用入门指南》](http://imweb.io/topic/57c8cbb27f226f687b365636)
+- [《使用 PM2 将 Node.js 的集群变得更加容易》](https://www.cnblogs.com/jaxu/p/5193643.html)

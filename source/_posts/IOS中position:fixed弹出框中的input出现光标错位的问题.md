@@ -3,6 +3,7 @@ title: IOS中position:fixed弹出框中的input出现光标错位的问题
 date: 2017-12-17 09:51:06
 tags: React
 categories: 前端
+description: IOS的浏览器下，固定布局 `position:fixed` 在 input 获取焦点的时候，就会失效，导致页面样式出问题， 本文主要讲解： 为什么出现？ 如何解决？ 
 ---
 
 ## 一、参考文章

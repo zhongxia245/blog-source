@@ -1,9 +1,12 @@
 ---
-title: docker宿主机和容器 文件传输
+title: docker宿主机和容器之间的文件传输
 date: 2018-03-30 16:14:06
 tags: docker
+description: 1. 如何容器中拷贝文件到宿主机? <br> 2. 如何从宿主机拷贝文件到容器?
 ---
+
 不管容器有没有启动，拷贝命令都会生效
+
 ```bash
 # 1. 容器中拷贝文件到宿主机
 docker cp mycontainer：/opt/testnew/file.txt /opt/test/
@@ -12,6 +15,7 @@ docker cp /opt/test/file.txt mycontainer：/opt/testnew/
 ```
 
 ## 一、容器中拷贝文件到宿主机
+
 拷贝方式为：
 
 docker cp 容器名：容器中要拷贝的文件名及其路径 要拷贝到宿主机里面对应的路径

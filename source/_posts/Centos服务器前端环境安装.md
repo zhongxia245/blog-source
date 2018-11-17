@@ -3,6 +3,7 @@ title: Centos服务器前端环境安装
 date: 2018-05-23 15:09:03
 tags: linux
 categories: 部署、运维
+description: 身为一个前端开发人员，需要安装的东西，有以下几个。 Nodejs , Npm , git , nginx , redis, mysql , mongodb，本文则主要讲解在 centos 下，前端环境的安装。
 ---
 
 身为一个前端开发人员，需要安装的东西，有以下几个。 Nodejs , Npm , git , nginx , redis, mysql , mongodb
@@ -11,8 +12,8 @@ categories: 部署、运维
 
 参考文章：
 
-* [《如何在 CentOS7 中安装 Nodejs》](https://www.cnblogs.com/lpbottle/p/7733397.html)
-* [《NodeJs 官网下载》](https://nodejs.org/zh-cn/download/)
+- [《如何在 CentOS7 中安装 Nodejs》](https://www.cnblogs.com/lpbottle/p/7733397.html)
+- [《NodeJs 官网下载》](https://nodejs.org/zh-cn/download/)
 
 ```bash
 # 下载包
@@ -48,7 +49,7 @@ yum install git
 
 参考文章
 
-* [《CentOS 7 下安装 Nginx》](https://www.linuxidc.com/Linux/2016-09/134907.htm)
+- [《CentOS 7 下安装 Nginx》](https://www.linuxidc.com/Linux/2016-09/134907.htm)
 
 ```bash
 # 安装依赖
@@ -89,8 +90,8 @@ ln /usr/local/nginx/sbin/nginx /usr/local/bin/nginx
 
 参考文章：
 
-* [《linux 下 yum 安装 redis 以及使用》](https://www.cnblogs.com/wiseroll/p/7061673.html)
-* [《访问远程 Redis 服务。Connect to Remote Redis Server》](https://blog.csdn.net/kinginblue/article/details/51619445)
+- [《linux 下 yum 安装 redis 以及使用》](https://www.cnblogs.com/wiseroll/p/7061673.html)
+- [《访问远程 Redis 服务。Connect to Remote Redis Server》](https://blog.csdn.net/kinginblue/article/details/51619445)
 
 ```bash
 # 安装redis
@@ -136,7 +137,7 @@ redis-cli -h ip地址 -p 6379
 
 参考文章：
 
-* [《CentOS 7.0 下使用 yum 安装 MySQL》](https://www.linuxidc.com/Linux/2016-09/134940.htm?from=groupmessage)
+- [《CentOS 7.0 下使用 yum 安装 MySQL》](https://www.linuxidc.com/Linux/2016-09/134940.htm?from=groupmessage)
 
 ```bash
 # 1. 下载mysql的repo源
@@ -176,7 +177,7 @@ mysql > exit;
 
 参考文章
 
-* [《阿里云下配置 MySQL 远程连接的步骤详解》](http://www.jb51.net/article/121173.htm)
+- [《阿里云下配置 MySQL 远程连接的步骤详解》](http://www.jb51.net/article/121173.htm)
 
 ```bash
 # 登录数据库
@@ -196,8 +197,8 @@ flush privileges ;
 
 参考文章
 
-* [《MongoDB Download Center》](https://www.mongodb.com/download-center?jmp=nav#community)
-* [《CentOS7.2 中安装 MongoDB》](https://blog.csdn.net/junshangshui/article/details/79371316)
+- [《MongoDB Download Center》](https://www.mongodb.com/download-center?jmp=nav#community)
+- [《CentOS7.2 中安装 MongoDB》](https://blog.csdn.net/junshangshui/article/details/79371316)
 
 ```bash
 # 下载安装包
@@ -221,13 +222,13 @@ mkdir /data/log
 vim /data/log/mongodb.log
 
 # 添加一个mongodb.conf
-port=27017                          #端口  
-dbpath= /data/db                    #数据库存文件存放目录  
-logpath= /data/log/mongodb.log      #日志文件存放路径  
-logappend=true                      #使用追加的方式写日志  
-fork=true                           #不以守护程序的方式启用，即不在后台运行  
-maxConns=100                        #最大同时连接数  
-noauth=true                         #不启用验证  
+port=27017                          #端口
+dbpath= /data/db                    #数据库存文件存放目录
+logpath= /data/log/mongodb.log      #日志文件存放路径
+logappend=true                      #使用追加的方式写日志
+fork=true                           #不以守护程序的方式启用，即不在后台运行
+maxConns=100                        #最大同时连接数
+noauth=true                         #不启用验证
 journal=true                        #每次写入会记录一条操作日志（通过journal可以重新构造出写入的数据）。
                                     #即使宕机，启动时wiredtiger会先将数据恢复到最近一次的checkpoint点，然后重放后续的journal日志来恢复。
 storageEngine=wiredTiger            #存储引擎有mmapv1、wiretiger、mongorocks
@@ -253,7 +254,7 @@ mongo
 
 ```bash
 # 数据库存在则切换过去，否则则新建一个数据库
-use blog;  
+use blog;
 
 # 创建数据库
 db.createUser({user:"test",pwd:"test@test",roles:[{role:"readWrite",db:"blog"}]})

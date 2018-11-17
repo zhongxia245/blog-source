@@ -3,6 +3,7 @@ title: 移动端开发中JavaScript遇到问题汇总
 date: 2017-07-17 18:44:00
 tags: JavaScript
 categories: 前端
+descriptioin: 汇总移动端开发中遇到的一些坑，以及解决方案
 ---
 
 ## 一、前言

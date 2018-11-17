@@ -2,6 +2,7 @@
 title: 关于网站图标favicon.ico那点事儿
 date: 2018-02-26 12:02:28
 tags: 前端
+description: favicon是网站图标，它则是导航的装饰之一，起到锦上添花的作用，让页面更精美耐看。
 ---
 
 ## 一、favicon 是什么
@@ -14,9 +15,8 @@ tags: 前端
 > 内容来源：https://www.cnblogs.com/wangrong/p/6295872.html
 
 ```html
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="icon" href="animated_favicon.gif" type="image/gif" />
-<!--备注:语句一 Shortcut Icon 就是在网址列前面出现的Icon-->
+<link rel="shortcut icon" href="favicon.ico" /> <link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<!-- 备注:语句一 Shortcut Icon 就是在网址列前面出现的Icon -->
 ```
 
 **只有第一行是必须的**

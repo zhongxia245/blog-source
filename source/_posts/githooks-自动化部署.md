@@ -3,6 +3,7 @@ title: githooks 自动化部署
 date: 2017-07-14 02:18:54
 tags: git
 categories: 部署、运维
+description: 如何使用 git hooks（eg:提交后会触发什么操作）来实现代码的自动化部署。 让你只需要关心代码的编码，然后比较，部署啥的，自动帮你搞定。
 ---
 
 ## 一、写在前面

@@ -1,9 +1,9 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "blog",
+  "version": "0.1.0",
   "private": true,
   "hexo": {
-    "version": "3.4.4"
+    "version": "3.8.0"
   },
   "scripts": {
     "depoly": "hexo d -g",
@@ -26,6 +26,7 @@
     "hexo-renderer-ejs": "^0.2.0",
     "hexo-renderer-jade": "0.3.0",
     "hexo-renderer-marked": "^0.2.10",
+    "hexo-renderer-scss": "^1.2.0",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.2.0"
   }

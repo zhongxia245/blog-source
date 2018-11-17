@@ -2,9 +2,10 @@
 title: 快速了解docker
 date: 2017-11-21 17:24:10
 tags: docker
+descriptioin: 介绍 docker 的一些基础命令，以及几个简单的小例子，帮助快速入门。后面就介绍一下， 如何使用 docker 来进行部署微服务。
 ---
 
-介绍 docker 的一些基础命令，以及几个简单的小例子，帮助快速入门。后面就介绍一下， 如何使用 docker 来进行部署微服物。
+介绍 docker 的一些基础命令，以及几个简单的小例子，帮助快速入门。后面就介绍一下， 如何使用 docker 来进行部署微服务。
 
 ## docker 架构图
 
@@ -29,25 +30,25 @@ Docker 是一个改进的容器技术。具体的“改进”体现在，Docker 
 
 Docker 经常被提起的特点：
 
-* 轻量，体现在内存占用小，高密度
-* 快速，毫秒启动
-* 隔离，沙盒技术更像虚拟机
+- 轻量，体现在内存占用小，高密度
+- 快速，毫秒启动
+- 隔离，沙盒技术更像虚拟机
 
 ### 1.2 Docker 技术的基础：
 
-* namespace，容器隔离的基础，保证 A 容器看不到 B 容器. 6 个名空间：User,Mnt,Network,UTS,IPC,Pid
-* cgroups，容器资源统计和隔离。主要用到的 cgroups 子系统：cpu,blkio,device,freezer,memory
-* unionfs，典型：aufs/overlayfs，分层镜像实现的基础
+- namespace，容器隔离的基础，保证 A 容器看不到 B 容器. 6 个名空间：User,Mnt,Network,UTS,IPC,Pid
+- cgroups，容器资源统计和隔离。主要用到的 cgroups 子系统：cpu,blkio,device,freezer,memory
+- unionfs，典型：aufs/overlayfs，分层镜像实现的基础
 
 ### 1.3 Docker 组件：
 
-* docker Client 客户端————>向 docker 服务器进程发起请求，如:创建、停止、销毁容器等操作
-* docker Server 服务器进程—–>处理所有 docker 的请求，管理所有容器
-* docker Registry 镜像仓库——>镜像存放的中央仓库，可看作是存放二进制的 scm
+- docker Client 客户端————>向 docker 服务器进程发起请求，如:创建、停止、销毁容器等操作
+- docker Server 服务器进程—–>处理所有 docker 的请求，管理所有容器
+- docker Registry 镜像仓库——>镜像存放的中央仓库，可看作是存放二进制的 scm
 
 ### 1.4 Docker 安装
 
-* Docker 的安装非常简单，支持目前所有主流操作系统，从 Mac 到 Windows 到各种 Linux 发行版具体参考： [docker 安装](https://docs.docker.com/installation/)
+- Docker 的安装非常简单，支持目前所有主流操作系统，从 Mac 到 Windows 到各种 Linux 发行版具体参考： [docker 安装](https://docs.docker.com/installation/)
 
 ## 二、Docker 常见命令
 
@@ -194,22 +195,22 @@ docker 创建、启动 container 时执行的命令，如果设置了 ENTRYPOINT
 
 ## 五、Dockerfile 最佳实践
 
-* 尽量将一些常用不变的指令放到前面
-* CMD 和 ENTRYPOINT 尽量使用 json 数组方式
-* 通过 Dockerfile 构建 image
+- 尽量将一些常用不变的指令放到前面
+- CMD 和 ENTRYPOINT 尽量使用 json 数组方式
+- 通过 Dockerfile 构建 image
   docker build csphere/nginx:1.7 .
 
-* 镜像仓库 Registry
+- 镜像仓库 Registry
   镜像从 Dockerfile build 生成后，需要将镜像推送(push)到镜像仓库。企业内部都需要构建一个私有 docker registry，这个 registry 可以看作二进制的 scm，CI/CD 也需要围绕 registry 进行。
 
-* 部署 registry
+- 部署 registry
 
 ```
 mkdir /registry
 docker run  -p 80:5000  -e STORAGE_PATH=/registry  -v /registry:/registry  registry:2.0
 ```
 
-* 推送镜像保存到仓库
+- 推送镜像保存到仓库
 
 ```
 假设192.168.1.2是registry仓库的地址：

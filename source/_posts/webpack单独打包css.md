@@ -3,6 +3,7 @@ title: webpack单独打包css
 date: 2016-05-14 10:50:25
 tags: Webpack
 categories: 前端
+description: webpack 单独构建出 CSS，记录一下配置。 (2018-11-17 19:13:45：目前看来，这个问题好简单， jiong~~)
 ---
 
 ## CHANGELOG
@@ -175,12 +176,7 @@ module: {
   loaders: [
     {
       test: /\.less$/,
-      loader: ExtractTextPlugin.extract(
-        'style-loader',
-        'css-loader',
-        'postcss-loader',
-        'less-loader'
-      )
+      loader: ExtractTextPlugin.extract('style-loader', 'css-loader', 'postcss-loader', 'less-loader')
     }
   ]
 }
