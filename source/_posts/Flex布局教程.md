@@ -4,6 +4,7 @@ date: 2016-05-06 10:09:44
 tags: CSS
 categories: 前端
 description: 在不考虑老版本浏览器（eg:IE）的情况下，Flex布局是目前非常简单粗暴的一种自适应布局。
+hide_toc: true
 ---
 
 Flex 布局比 div + css 更简单粗暴, 更容易实现我们想要的布局.

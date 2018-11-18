@@ -104,6 +104,9 @@ deploy:
   - type: git
     repository: https://gitee.com/zhongxia245/blog-source.git
     branch: release
+  - type: git
+    repository: zhongxia@blog.izhongxia.com:/home/zhongxia/git/blog.git
+    branch: release
 # deploy:
 # - type: git
 #   repo:
