@@ -12,7 +12,7 @@ git clone https://github.com/zhongxia245/blog-source.git
 yarn install
 
 # 下载主题
-git clone https://github.com/frostfan/hexo-theme-polarbear.git themes/BlueLake
+git clone https://gitee.com/zhongxia245/hexo-theme-polarbear-update.git themes/polarbear
 
 # _config.yml 修改 theme
 # Extensions
