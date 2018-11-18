@@ -1,7 +1,7 @@
 ---
 title: Flex布局教程
 date: 2016-05-06 10:09:44
-tags: CSS
+tags: css
 categories: 前端
 description: 在不考虑老版本浏览器（eg:IE）的情况下，Flex布局是目前非常简单粗暴的一种自适应布局。
 hide_toc: true

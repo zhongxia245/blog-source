@@ -1,8 +1,7 @@
 ---
 title: Nginx简易教程
 date: 2017-11-02 11:33:39
-tags: Nginx
-categories: 运维
+tags: nginx
 description: Nginx的一些常用场景， 正向代理和反向代理 、常用 nginx 命令，负载均衡、https 配置、跨域解决方案等。
 ---
 

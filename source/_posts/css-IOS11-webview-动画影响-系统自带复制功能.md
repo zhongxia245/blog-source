@@ -1,7 +1,8 @@
 ---
 title: IOS11 webview 动画影响 系统自带复制功能
 date: 2018-03-16 12:05:56
-tags: 前端
+tags: css
+categories: 前端
 description: 这个是一个坑，只有在 IOS webview下才出现的深坑， 在做动画(animation)的时候， 复制功能居然失效了。 一顿操作后，发现使用 transform 来实现动画，则没有这个问题。
 ---
 

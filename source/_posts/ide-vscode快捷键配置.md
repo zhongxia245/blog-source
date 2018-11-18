@@ -1,7 +1,7 @@
 ---
 title: vscode快捷键配置
 date: 2017-08-02 10:51:50
-tags: IDE
+tags: ide
 description: 一个好用的编辑器可以提升你很大的开发效率，vscode是一个一直在用的编辑器，这集记录一下常用的一些配置。
 ---
 

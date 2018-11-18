@@ -1,7 +1,8 @@
 ---
 title: NodeJs 实现 SSO单点登录
 date: 2017-12-20 17:38:40
-tags: SSO
+tags: node
+categories: 后端
 description: 本文主要记录实现单点登录的流程，并且自己实现的一个 DEMO 案例,附带源码地址。
 ---
 

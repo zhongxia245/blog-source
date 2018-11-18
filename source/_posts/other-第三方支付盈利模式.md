@@ -1,8 +1,7 @@
 ---
 title: 第三方支付盈利模式
 date: 2017-12-20 11:06:18
-tags: 支付
-categories: 支付
+tags: other
 descriptioin: 好奇第三方支付的主要盈利手段是什么，然后就有了这个文章。
 ---
 

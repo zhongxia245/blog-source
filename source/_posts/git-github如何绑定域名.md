@@ -2,7 +2,6 @@
 title: github如何绑定域名
 date: 2016-04-30 06:41:53
 tags: git
-categories: 部署、运维
 description: 经常有人用github pages 的功能，来当自己的blog，或者开源组件介绍和使用说明。 github  pages 默认的地址是 `you_name.github.io` 这种形式，那么如何去改成自己的域名呢？ 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: base64图片上传了解一下
 date: 2018-04-12 16:24:31
-tags: JavaScript
+tags: js
 categories: 前端
 description: cropper是一个图片裁剪组件，裁剪出来的是一个 base64数据，那么如何用 Ajax 把这个图片上传上去呢？
 ---

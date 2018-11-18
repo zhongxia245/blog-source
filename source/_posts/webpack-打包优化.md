@@ -1,7 +1,7 @@
 ---
 title: webpack打包优化小结
 date: 2017-11-17 15:32:21
-tags: Webpack
+tags: webpack
 categories: 前端
 description: TODO:（2018-11-17 19:16:32）重新整理了下，这篇文章已经有点过时了，因此有时间需要更新下内容。
 ---
@@ -83,11 +83,7 @@ var JS_PATH = path.join(__dirname, 'src')
 
 function getEntries() {
   var map = {}
-  var fileList = glob.sync([
-    './src/**/*.js',
-    '!./src/gulp/**/*.js',
-    '!./src/common/**/*.js'
-  ])
+  var fileList = glob.sync(['./src/**/*.js', '!./src/gulp/**/*.js', '!./src/common/**/*.js'])
 
   fileList.forEach(function(file) {
     var name = path.basename(file)
@@ -220,10 +216,7 @@ module.exports = [
     },
     resolve: {
       root: JS_PATH,
-      modulesDirectories: [
-        'node_modules',
-        path.join(__dirname, '../node_modules')
-      ],
+      modulesDirectories: ['node_modules', path.join(__dirname, '../node_modules')],
       extensions: ['', '.web.js', '.js', '.json', '.less']
     },
     plugins: [

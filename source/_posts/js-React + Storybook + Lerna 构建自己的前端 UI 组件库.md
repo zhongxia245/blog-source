@@ -1,7 +1,8 @@
 ---
 title: React + Storybook + Lerna 构建自己的前端 UI 组件库
 date: 2018-05-21 18:54:18
-tags: React
+tags: js
+categories: 前端
 description: 编写一个组件库，需要管理各个组件的版本，组件DEMO 页面，组件的使用文档， 这里有一套比较成熟的方案，了解一下~~
 ---
 

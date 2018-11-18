@@ -1,8 +1,7 @@
 ---
 title: 云虚拟主机，云服务器的区别
 date: 2017-11-17 14:36:47
-tags: 服务器
-categories: 运维
+tags: linux
 description: 共享云虚拟主机、独享云虚拟主机、云服务器 ECS 的区别，解释来自知乎
 ---
 

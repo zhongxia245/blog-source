@@ -14,7 +14,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://www.izhongxia.com
-root: /blog-source
+root: ''
 permalink: :year/:month/:day/:title.html
 permalink_defaults:
 
@@ -100,13 +100,14 @@ toc:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 
+# 分别不是到 gitlab 和 自己的服务器
 deploy:
   - type: git
     repository: https://gitee.com/zhongxia245/blog-source.git
     branch: release
-  # - type: git
-  #   repository: zhongxia@blog.izhongxia.com:/home/zhongxia/git/blog.git
-  #   branch: release
+  - type: git
+    repository: zhongxia@blog.izhongxia.com:/home/zhongxia/git/blog.git
+    # branch: master
 # deploy:
 # - type: git
 #   repo:
