@@ -1,8 +1,11 @@
 ---
 title: Centos服务器前端环境安装
-date: 2018-05-23 15:09:03
 tags: linux
-description: 身为一个前端开发人员，需要安装的东西，有以下几个。 Nodejs , Npm , git , nginx , redis, mysql , mongodb，本文则主要讲解在 centos 下，前端环境的安装。
+description: >-
+  身为一个前端开发人员，需要安装的东西，有以下几个。 Nodejs , Npm , git , nginx , redis, mysql ,
+  mongodb，本文则主要讲解在 centos 下，前端环境的安装。
+abbrlink: 26092
+date: 2018-05-23 15:09:03
 ---
 
 身为一个前端开发人员，需要安装的东西，有以下几个。 Nodejs , Npm , git , nginx , redis, mysql , mongodb

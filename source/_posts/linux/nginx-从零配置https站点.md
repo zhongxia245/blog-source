@@ -1,8 +1,9 @@
 ---
 title: 5分钟让你的网站支持 https
-date: 2018-01-05 14:00:27
 tags: nginx
 description: 讲解配置 https 的流程，从哪里申请 https 证书，到 nginx 配置，以及可能遇见的问题和解决方案。
+abbrlink: 44912
+date: 2018-01-05 14:00:27
 ---
 
 # 从零配置一个 https 网站

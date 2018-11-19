@@ -1,8 +1,9 @@
 ---
 title: Docker实战一【部署 NodeJs Hello World】
-date: 2017-11-22 11:57:26
 tags: docker
 description: 学习了一下 Docker 的基本知识，要应用起来，才能把知识变成自己的， 纸上得来总觉浅呀。这里开始记录下实战的内容， 部署 NodeJs 服务。
+abbrlink: 29823
+date: 2017-11-22 11:57:26
 ---
 
 学习了一下 Docker 的基本知识，要应用起来，才能把知识变成自己的， 纸上得来总觉浅呀。这里开始记录下实战的内容， 部署 NodeJs 服务。

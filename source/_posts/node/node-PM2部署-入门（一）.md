@@ -1,9 +1,10 @@
 ---
 title: PM2部署--入门（一）
-date: 2018-04-28 15:03:38
 tags: nodejs
 categories: 后端
 description: PM2是node进程管理工具，可以利用它来简化很多node应用管理的繁琐任务，如性能监控、自动重启、负载均衡等，而且使用非常简单。
+abbrlink: 58765
+date: 2018-04-28 15:03:38
 ---
 
 ## 一、介绍

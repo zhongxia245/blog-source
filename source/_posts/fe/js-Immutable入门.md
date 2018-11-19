@@ -1,9 +1,12 @@
 ---
 title: Immutable入门
-date: 2017-08-09 00:28:28
 tags: js
 categories: 前端
-description: Immutable 是和 React 同一个时期出现的库，用于解决 JavaScript 没有不可变数据结构的问题。 （到目前既然在项目中应用过这个库，尴尬.png）
+description: >-
+  Immutable 是和 React 同一个时期出现的库，用于解决 JavaScript 没有不可变数据结构的问题。
+  （到目前既然在项目中应用过这个库，尴尬.png）
+abbrlink: 51986
+date: 2017-08-09 00:28:28
 ---
 
 ## 一、背景

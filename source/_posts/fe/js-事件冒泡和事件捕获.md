@@ -1,9 +1,10 @@
 ---
 title: 事件冒泡和事件捕获
-date: 2017-11-08 10:32:13
 tags: js
 categories: 前端
 description: JavaScript 基础知识，事件机制了解一下。
+abbrlink: 35471
+date: 2017-11-08 10:32:13
 ---
 
 ## 一、术语

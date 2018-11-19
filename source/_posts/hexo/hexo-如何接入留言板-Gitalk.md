@@ -1,8 +1,11 @@
 ---
 title: 【Hexo】三步搞定留言板功能（Gitalk）
-date: 2018-11-18 00:55:45
 tags: hexo
-description: hexo 有很多留言板功能，但是这篇文章主要讲解的是 Gitalk ，它其实使用 Git 仓库的 Issue 来进行留言的管理，界面比较简洁美观。 如果有缺点的话，那么就是它需要有 github 帐号，才能留言哈。
+description: >-
+  hexo 有很多留言板功能，但是这篇文章主要讲解的是 Gitalk ，它其实使用 Git 仓库的 Issue 来进行留言的管理，界面比较简洁美观。
+  如果有缺点的话，那么就是它需要有 github 帐号，才能留言哈。
+abbrlink: 41249
+date: 2018-11-18 00:55:45
 ---
 
 Hexo 有很多留言板的第三方插件（多说、disqus、Gitment、Gitalk 等等），但是这里主要讲解怎么使用 Gitalk， 因为它比较好看，移动端支持友好(Gitment 移动端稍微差点)。

@@ -1,9 +1,10 @@
 ---
 title: 关于网站图标favicon.ico那点事儿
-date: 2018-02-26 12:02:28
 tags: html
 categories: 前端
 description: favicon是网站图标，它则是导航的装饰之一，起到锦上添花的作用，让页面更精美耐看。
+abbrlink: 11826
+date: 2018-02-26 12:02:28
 ---
 
 ## 一、favicon 是什么

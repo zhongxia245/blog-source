@@ -36,3 +36,16 @@ npm run deploy
 ```
 hexo new "postName"
 ```
+
+## 四、使用的插件
+
+使用插件 `hexo-abbrlink` 来生成唯一的 hexo 地址链接
+
+```yaml
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://www.izhongxia.com
+root: ''
+permalink: posts/:abbrlink.html   # :abbrlink 表示生成的唯一id， hexo clean 也不会把地址变了
+permalink_defaults:
+```

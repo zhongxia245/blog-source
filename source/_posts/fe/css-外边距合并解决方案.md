@@ -1,9 +1,10 @@
 ---
 title: CSS外边距合并解决方案
-date: 2017-10-17 10:57:56
 tags: css
 categories: 前端
 description: 外边距出现的原因是什么？ 如何解决这个问题呢？看这里~~
+abbrlink: 55749
+date: 2017-10-17 10:57:56
 ---
 
 ### 零、总结

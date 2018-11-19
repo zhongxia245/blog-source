@@ -1,9 +1,10 @@
 ---
 title: webpack单独打包css
-date: 2016-05-14 10:50:25
 tags: webpack
 categories: 前端
-description: webpack 单独构建出 CSS，记录一下配置。 (2018-11-17 19:13:45：目前看来，这个问题好简单， jiong~~)
+description: 'webpack 单独构建出 CSS，记录一下配置。 (2018-11-17 19:13:45：目前看来，这个问题好简单， jiong~~)'
+abbrlink: 4676
+date: 2016-05-14 10:50:25
 ---
 
 ## CHANGELOG
