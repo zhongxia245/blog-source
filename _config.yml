@@ -8,7 +8,7 @@ subtitle: 人生最有价值的时刻，不是最后的功成名就，而是对�
 description: zhongxia的个人博客，zhongxia blog.
 keywords: zhongxia，前端
 author: zhongxia
-language: zh-CN
+language: zh-ch
 timezone:
 
 # URL
@@ -25,7 +25,7 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :zh-cn
+i18n_dir: 
 skip_render:
 
 # Writing
