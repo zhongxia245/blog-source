@@ -16,30 +16,6 @@ date: 2016-11-09 17:29:51
 
 很早就有开始写博客的习惯，但是只是当做记笔记的方式来写，所以质量参差不齐。 不过记笔记对于学习还有很有帮助了，在写笔记的过程，也是总结的一个过程。
 
-## 记笔记，写博客的七七八八
-
-> 一路过来真有意思，变来变去，又变回了，刚毕业时，自己想弄一个 Blog 的 情况了。
-
-1. 有道云笔记（14 ~ 至今）,用了 `2G` 真是可怕。
-   <img src="https://i.loli.net/2018/11/18/5bf126358d3e3.png" style="max-width:300px;">
-
-2. 应该也是 14 年 16 年底，把一些文章发布到了 [博客园](http://www.cnblogs.com/zhongxia/), 后面因为移动端支持真心不友好，放弃了。
-   <a href="http://www.cnblogs.com/zhongxia/">
-   <img src="https://i.loli.net/2018/11/18/5bf12772cd2cf.png" style="max-width:300px;">
-   </a>
-
-3) 17 年换到了[简书](https://www.jianshu.com/u/c664d7ddd11d)， 也是写了挺多的。
-   <a href="https://www.jianshu.com/u/c664d7ddd11d">
-   <img src="https://i.loli.net/2018/11/18/5bf1270c6002b.png" style="max-width:300px;">
-   </a>
-
-4) 又换到了 [Github](https://github.com/zhongxia245/blog) 。
-   <a href="https://github.com/zhongxia245/blog">
-   <img src="https://i.loli.net/2018/11/18/5bf1273cd5d22.png" style="max-width:300px;">
-   </a>
-
-5) 最终，花费了一天的时间，搭建了这个 博客哈。
-
 ## 有趣的小项目
 
 ### 1. 微群控系统
@@ -53,8 +29,6 @@ date: 2016-11-09 17:29:51
 
 1. 电脑通过 USB 控制手机设备是有限制的问题没有解决
 2. 操作流畅度很不好
-
-后面，因为人走了，所以这个调研项目就放着了。
 
 [项目地址](https://github.com/zhongxia245/weiqunkong)
 
