@@ -5,10 +5,10 @@
 # Site
 title: zhongxia
 subtitle: 人生最有价值的时刻，不是最后的功成名就，而是对未来充满期待与不安之时。
-description: zhongxia的个人博客，zhongxia blog.
-keywords: zhongxia，前端
+description: blog - zhongxia
+keywords: zhongxia,fe,web
 author: zhongxia
-language: zh-ch
+language: zh-CN
 timezone:
 
 # URL
@@ -25,7 +25,7 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: 
+i18n_dir:
 skip_render:
 
 # Writing
@@ -71,7 +71,23 @@ tag_generator:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: polarbear
+# theme: polarbear
+theme: next
+
+# 谷歌SEO去这个网址看 https://search.google.com/search-console/performance/search-analytics
+
+# 把baidusitemap.xml 提交到这里 http://www.sousuoyinqingtijiao.com/baidu/tijiao/
+baidusitemap:
+  path: baidusitemap.xml
+
+# Search 
+algolia:
+  applicationID: '8Z0MS5J2F0'
+  apiKey: '85a96e3c25c0ed438bc3add9886c1134'
+  indexName: 'izhongxia_blog'
+  chunkSize: 5000
+
+
 
 # json local search
 jsonContent:

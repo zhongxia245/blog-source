@@ -5,7 +5,7 @@ description: >-
   本系列主要介绍如何从零构建一个简单的代理IP池。涉及到的知识点：NodeJs, MySql, Eggjs, Sequelize, Async/Await
   异步处理, PM2等知识点的入门与应用。
 abbrlink: 57516
-date: 2018-11-26 23:48:20
+date: 2018-11-28 09:06:35
 ---
 
 此小节项目源码：[simple-proxy-pool](https://github.com/zhongxia245/simple-proxy-pool/releases/tag/v0.1)
