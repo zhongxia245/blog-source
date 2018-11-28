@@ -1,6 +1,8 @@
 ---
 title: NodeJs从零构建代理ip池（二）项目框架介绍与搭建
-tags: 'nodejs , 爬虫'
+tags:
+  - nodejs
+  - 爬虫
 description: >-
   本系列主要介绍如何从零构建一个简单的代理IP池。涉及到的知识点：NodeJs, MySql, Eggjs, Sequelize, Async/Await
   异步处理, PM2等知识点的入门与应用。
