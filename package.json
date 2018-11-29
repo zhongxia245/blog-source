@@ -6,7 +6,7 @@
     "version": "3.8.0"
   },
   "scripts": {
-    "depoly": "export HEXO_ALGOLIA_INDEXING_KEY=a36beb21c35137004e52f72f1912c715 && rm -rf .deploy_git && hexo algolia && hexo d -g",
+    "depoly": "rm -rf .deploy_git && hexo d -g",
     "start": "hexo s",
     "add": "hexo new post "
   },
@@ -21,6 +21,7 @@
     "hexo-generator-feed": "^1.2.0",
     "hexo-generator-index": "^0.2.0",
     "hexo-generator-json-content": "^2.2.0",
+    "hexo-generator-searchdb": "^1.0.8",
     "hexo-generator-sitemap": "^1.1.2",
     "hexo-generator-tag": "^0.2.0",
     "hexo-renderer-ejs": "^0.2.0",
@@ -28,6 +29,7 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-scss": "^1.2.0",
     "hexo-renderer-stylus": "^0.3.3",
-    "hexo-server": "^0.2.0"
+    "hexo-server": "^0.2.0",
+    "hexo-symbols-count-time": "^0.4.4"
   }
 }

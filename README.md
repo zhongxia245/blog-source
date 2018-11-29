@@ -49,3 +49,15 @@ root: ''
 permalink: posts/:abbrlink.html   # :abbrlink 表示生成的唯一id， hexo clean 也不会把地址变了
 permalink_defaults:
 ```
+
+## 五、文章加密访问
+
+post 头部添加 `password: 123456` 即可开启密码功能
+
+### 1. 如果使用 algolia 搜索，则替换 depoly
+
+```bash
+"depoly": "export HEXO_ALGOLIA_INDEXING_KEY=a36beb21c35137004e52f72f1912c715 && rm -rf .deploy_git && hexo algolia && hexo d -g",
+```
+
+next 主题的 `algolia_search` 改为 `true` ，关闭 `local_search` 即可。

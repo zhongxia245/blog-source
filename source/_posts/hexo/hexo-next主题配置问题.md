@@ -39,3 +39,9 @@ $ hexo algolia
 {% fold 点击显/隐内容 %}
 something you want to fold, include code block.
 {% endfold %}
+
+### 5. 在右上角或者左上角实现 fork me on github
+
+[《GitHub Ribbons》](https://blog.github.com/2008-12-19-github-ribbons/)
+
+打开 `themes/next/layout/_layout.swig` 文件，把代码复制到`<div class="headband"></div>`下面。

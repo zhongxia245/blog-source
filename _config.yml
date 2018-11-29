@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: zhongxia
-subtitle: 人生最有价值的时刻，不是最后的功成名就，而是对未来充满期待与不安之时。
+title: Zhongxia Blog
+subtitle: 记录、分享、交流
 description: blog - zhongxia
-keywords: zhongxia,fe,web
+keywords: zhongxia,fe,web,blog
 author: zhongxia
 language: zh-CN
 timezone:
@@ -87,7 +87,20 @@ algolia:
   indexName: 'izhongxia_blog'
   chunkSize: 5000
 
+# local search
+# 生成的文件如果是xml，则ajax请求解析则会报错
+search:
+  path: search.json
+  field: post
+  format: html
+  limit: 10000
 
+# workcount
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
 
 # json local search
 jsonContent:
