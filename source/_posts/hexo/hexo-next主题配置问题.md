@@ -45,3 +45,21 @@ something you want to fold, include code block.
 [《GitHub Ribbons》](https://blog.github.com/2008-12-19-github-ribbons/)
 
 打开 `themes/next/layout/_layout.swig` 文件，把代码复制到`<div class="headband"></div>`下面。
+
+### 6. 本地搜索的问题
+
+使用 `hexo-generator-searchdb` 插件生成的文件，必须为 json 格式，如何 ajax 请求的时候会报 `parseerror。`
+
+就是点击搜索的时候，页面会一直在 loading，不会出现弹窗。
+
+只需要改 hexo 根目录下的 \_config.yml 的配置， 把 `path` 改成 `search.json`即可
+
+```yaml
+# local search
+# 生成的文件如果是xml，则ajax请求解析则会报错
+search:
+  path: search.json
+  field: post
+  format: html
+  limit: 10000
+```
