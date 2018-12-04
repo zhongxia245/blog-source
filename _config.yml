@@ -4,9 +4,9 @@
 
 # Site
 title: Zhongxia Blog
-subtitle: 记录、分享、交流
-description: blog - zhongxia
-keywords: zhongxia,fe,web,blog
+subtitle: 低质量的勤奋，比懒惰更可怕
+description: 记录、分享、成长
+keywords: 低质量的勤奋，比懒惰更可怕,zhongxia,webpack,react,fe,blog
 author: zhongxia
 language: zh-CN
 timezone:
@@ -80,7 +80,7 @@ theme: next
 baidusitemap:
   path: baidusitemap.xml
 
-# Search 
+# Search
 algolia:
   applicationID: '8Z0MS5J2F0'
   apiKey: '85a96e3c25c0ed438bc3add9886c1134'
