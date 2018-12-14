@@ -1,6 +1,6 @@
 ---
 title: webpack实战场景系列
-sticky: 1 
+top: true
 tags: webpack
 description: '本系列主要记录webpack在实际项目开发中，都有哪些实际的应用，单页面开发，多页面开发，大项目构建优化，按需加载，动态加载，动态加载并且每个引用单独打包成一个文件等知识的记录'
 abbrlink: 44724
