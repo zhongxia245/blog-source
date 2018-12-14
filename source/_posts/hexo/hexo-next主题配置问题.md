@@ -108,3 +108,35 @@ top: true   # 设置置顶，多个置顶按照时间排序
 
 ```
 
+
+## 9. 新增近期文章
+
+前几天看到别人的博客有个近期文章版块，感觉挺好，于是就想给自己的博客也加这么个功能。由于使用的是next主题，而next默认是没有这个版块的，那就自己搞一个吧。废话不多说，直接上代码，挺简单的。
+
+```html
+{% if theme.recent_posts %}
+    <div class="links-of-blogroll motion-element {{ "links-of-blogroll-" + theme.recent_posts_layout  }}">
+      <div class="links-of-blogroll-title">
+        <!-- modify icon to fire by szw -->
+        <i class="fa fa-history fa-{{ theme.recent_posts_icon | lower }}" aria-hidden="true"></i>
+        {{ theme.recent_posts_title }}
+      </div>
+      <ul class="links-of-blogroll-list">
+        {% set posts = site.posts.sort('-date') %}
+        {% for post in posts.slice('0', '5') %}
+          <li>
+            <a href="{{ url_for(post.path) }}" title="{{ post.title }}" target="_blank">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+{% endif %}
+```
+
+将此代码贴在`next/layout/_macro/sidebar.swig`中的`if theme.links`对应的endif后面，就ok了，是不是很简单。。。。
+为了配置方便，在主题的`_config.yml`中添加了几个变量，如下：
+```bash
+recent_posts_title: 近期文章
+recent_posts_layout: block
+recent_posts: true
+```
